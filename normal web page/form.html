@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eje form</title>
+    <link rel="stylesheet" href="./unistyles/forms.css">
     <style>
         * {box-sizing: border-box;}
         
@@ -58,26 +59,23 @@
         </style>
 
     <div class="header">
-      
         <a href="./home.html" class="logo">
           <center>
             <img src="./img/Blanco.png" width="50" height="50">
           </center>
         </a>
     </div>
+    
 </head>
 <body>
-    <form action="connect.php" method="post"> 
-        <fieldset>
-         <legend>Nueva Publicacion</legend>
-         <label for="ftitulo">¿Que vas a ofrecer?</label>
-         <input type="text" id="ftitulo" name="ftitulo"><br><br>
-         <label for="fdesc">Descripción</label>
-         <textarea id="fdesc" name="fdesc" rows="4" cols="50" placeholder="Describe lo que vas a vender/ofrecer..."></textarea><br><br>
-         <label for="fwhats">WhatsApp</label>
-         <input type="text" id="fwhats" name="fwhats"><br><br>
-         <input type="submit" value="Publicar">
-        </fieldset>
-    </form>
+  <div class="bform">
+      <form action="connect.php" method="post"> 
+          <label for="ftitulo">¿Que vas a ofrecer?</label>
+          <input type="text" id="ftitulo" name="ftitulo"><br><br>
+          <label for="fdesc">Descripción</label>
+          <textarea id="fdesc" name="fdesc" rows="4" cols="50" placeholder="Describe lo que vas a vender/ofrecer..."></textarea><br><br>
+          <input type="submit" value="Publicar">
+      </form>
+  </div>
 </body>
 </html>
