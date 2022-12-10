@@ -8,3 +8,7 @@
   .postbox h3 {
     color: #04BF45;
   }
+
+  .postbox img {
+    text-align: right;
+  }
